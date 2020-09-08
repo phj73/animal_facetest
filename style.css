@@ -1,12 +1,37 @@
+
 body {
   font-family: sans-serif;
   background-color: #eeeeee;
 }
 
+.title {
+    text-align : center;
+    color : #A52A2A;
+}
+
+.subtitle {
+        text-align : center;
+        color : #8A2BE2;
+}
+
+.youtube-cover {
+    text-align : right;
+    width : 1260px;
+    
+}
+
+.youtube-link {
+     color : #0000CD;
+    
+} 
+
+
+
 .file-upload {
   background-color: #ffffff;
   width: 600px;
   margin: 0 auto;
+  margin-top : 10px;  
   padding: 20px;
 }
 
@@ -119,3 +144,6 @@ body {
     text-align : center;
     margin-top : 10px;
 }
+
+
+
