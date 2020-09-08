@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>hello</title>
+        <title>심심풀이 동물상 테스트</title>
         <link rel="stylesheet" href="style.css" />
         
     </head>
@@ -14,7 +14,7 @@
                 <a
                     href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg"
                     class="youtube-link"
-                    >by조코딩유튜브채널</a
+                    ><strong>도움 : 조코딩유튜브채널</strong></a
                 ><img src="" alt="" class="youtube-icon" />
             </div>
         </section>
@@ -40,12 +40,20 @@
                     accept="image/*"
                 />
                 <div class="drag-text">
-                    <h3>사진을 찍거나 화일을 업로드 하세요</h3>
+                    <h3>사진을 찍거나 화일을 업로드 하세요.<br> 업로드된 사진 및 화일은 저장되지 않습니다. <br>안심하고 올리셔도 됩니다.</h3>
                 </div>
             </div>
             <div class="file-upload-content">
                 <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+                
+                <div id="loading" class="animated bounce">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <p class="text-center">AI가 당신의 동물상을 분석중입니다.</p>
+                    
                 <p class="result-message"></p>
+                    
                 <div id="label-container"></div>
                 <div class="image-title-wrap">
                     <button type="button" onclick="removeUpload()" class="remove-image">
