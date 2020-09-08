@@ -1,0 +1,3 @@
+User-agent: *
+Allow:/
+Sitemap: https://www.animal-facetest.ga/sitemap (2).xml
